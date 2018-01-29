@@ -1,0 +1,95 @@
+body {
+    padding-top: 176px;
+}
+
+.bg-dark {
+    background-color: purple!important;
+}
+
+.navbar-brand {
+    position: relative
+}
+.navbar-brand img {
+    height: 150px;
+    border-radius: 10px;
+}
+.nav-link {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+.clearfix {
+    clear: both;
+}
+
+.headerlogo {
+    float: left;
+}
+.headerlogo img {
+    width: 200px;
+}
+
+#headername {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+div#coffeeofthemonth {
+    text-align: center;
+    display: block;
+}
+#welcometext header {
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#welcometext span {
+    color: #000;
+    column-count: 2;
+    display: block;
+    text-align: justify;
+}
+
+fieldset {
+    border: 0;
+}
+
+article h4,
+fieldset legend {
+    font-family: 'Bungee', cursive;
+    font-size: 22px;
+    color: purple;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding-top: 76px;
+    }
+    .navbar-brand img {
+        height: 50px;
+        border-radius: 10px;
+    }
+    #welcometext span {
+        column-count: 1;
+    }
+    #welcometext header {
+        font-size: 27px;
+        color: purple;
+        margin: 20px 0;
+    }
+}
